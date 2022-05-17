@@ -1,0 +1,569 @@
+/* Шрифты 
+
+font-family: 'Abel', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+
+@font-face{
+font-family: 'Avenir_Next';
+src: url('font/Avenir_Next.ttf')
+
+}
+
+body {
+	font-family: 'Avenir_Next';
+	margin: 0;
+}
+ 
+/* Фиксированное меню */
+
+nav.navbar {
+	position: fixed;
+	background-color: white;
+	font-family: 'Abel', sans-serif;
+	width: 100%;
+	box-shadow: 0 1px 1px rgb(0 0 0 / 1%), 0 5px 13px rgb(0 0 0 / 8%);
+}
+
+nav.navbar a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	float: right;
+	padding: 16px 16px;
+	margin-right: 90px;
+	margin-top: 0.7em;
+	color: black;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+nav.navbar a:hover {
+	color: #5CB30B;
+	font-weight: 1000;
+}
+
+img.navbar {
+	margin-left: 50px;
+	width: 95px;
+	margin-right: 200px;
+}
+
+button.navbar {
+	color: white;
+	background-color: #5CB30B;
+	width: 120px;
+	height: 40px;
+	border-radius: 8px;
+	border: none;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+button.navbar:hover {
+	background: #76de57;
+	transition: .3s;
+}
+
+a.navbar {
+	padding-top: 5px !important;
+}
+
+/* Первая страница */
+
+img.pctmain {
+	width: 100%;
+	display: block;
+}
+
+span.first-article {
+	display: block;
+	width: 400px;
+	position: static;
+	margin-top: -550px;
+	margin-left: 950px;
+	margin-bottom: 325px;
+}
+
+button.first-article {
+	width: 120px;
+	height: 40px;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	background-color: #5CB30B;
+	cursor: pointer;
+}
+
+button.first-article:hover {
+	background: #76de57;
+	transition: .3s;
+}
+
+/* Строчка под первой страницей */
+
+div.footer-first-article {
+	display: inline-flex;
+	margin-top: 55px;
+	padding: 40px;
+	padding-right: 77px;
+	padding-top: 10px;
+	padding-bottom: 4px;
+	height: 130px;
+	justify-content: flex-start;
+	background: url(img/line1.png) no-repeat;
+	background-position: 30.4% 58%;
+	box-shadow: 0 1px 1px rgba(0,0,0,-0.22), 0 5px 13px rgba(0,0,0,0.22);
+}
+
+span.block1 {
+	display: block;
+	margin-right: 70px;
+	margin-left: 10px;
+}
+
+span.block2 {
+	display: block;
+	margin-left: 10px;
+}
+
+h1.block1 {
+	font-size: 25px;
+}
+
+input.block1 {
+	margin-right: 10px;
+	height: 35px;
+	width: 220px;
+	border-radius: 8px;
+	border: 1px solid #E4E4E4;
+	padding-left: 15px;
+	cursor: text;
+	outline: none;
+}
+
+button.block1 {
+	height: 40px;
+	width: 120px;
+	border-radius: 8px;
+	border: 1px solid #E4E4E4;
+	background-color: #5CB30B;
+	color: white;
+	cursor: pointer;
+	outline: none;
+}
+
+button.block1:hover {
+	background: #76de57;
+	/* box-shadow: 0 5px 0 #5CB30B;*/
+    transition: .3s;
+}
+
+h1.block2 {
+	font-size: 25px;
+}
+
+input.block2 {
+	height: 35px;
+	width: 240px;
+	margin-right: 10px;
+	border-radius: 8px;
+	border: 1px solid #E4E4E4;
+	padding-left: 15px;
+	cursor: text;
+	outline: none;
+}
+
+button.block2 {
+	height: 40px;
+	width: 120px;
+	border-radius: 8px;
+	border: 1px solid #E4E4E4;
+	background-color: #316FC3;
+	color: white;
+	cursor: pointer;
+}
+
+button.block2:hover {
+	background: #6fa6f7;
+	transition: .3s;
+}
+
+/* Страница с ценами */
+
+div.first-atricle-page-prize {
+	width: 1000px;
+	display: block;
+	margin: 70px 20% 30px 20%;
+}
+
+h1.first-atricle-page-prize {
+	font-size: 36px;
+}
+
+p.first-atricle-page-prize {
+	font-size: 18px;
+	line-height: 30px;
+	margin-right: 190px;
+}
+
+div.KG-prize{
+	margin: 30px 25% 30px 25%;
+	padding: 30px 25px 75px 25px;
+	border-radius: 8px;
+	box-shadow: 0 30px 30px rgb(0 0 0 / 6%), 0px 0px rgb(0 0 0 / 22%);
+}
+
+p.KG-prize {
+	font-size: 20px;
+}
+
+button.KG-prize {
+	height: 24px;
+	width: 107px;
+	border-radius: 4px;
+	border: none;
+	background-color: #FFC22B;
+	color: white;
+	cursor: pointer;
+	font-size: 10px;
+	letter-spacing: 2px;
+	float: right;
+	margin-top: -44px;
+}
+
+button.KG-prize:hover {
+	background: #FCDA73;
+	transition: .3s;
+}
+
+img.KG-prize {
+	float: left;
+	width: 390px;
+	height: 260px;
+}
+
+p.head-cost {
+	font-size: 14px;
+	color: #6E7A7B;
+	display: inline-block;
+}
+
+p.after {
+	margin-right: 105px;
+}
+
+span.KG-prize-1 {
+	display: block;
+	width: 150px;
+	height: 125px;
+	margin-left: 400px;
+}
+
+span.KG-prize-2 {
+	display: block;
+	width: 100px;
+	margin-left: 600px;
+	margin-top: -125px;
+}
+
+span.p1 {
+	display: block;
+	float: left;
+	padding: 12px 0 0 0;
+	font-size: 14px;
+}
+
+span.p2 {
+	display: block;
+	padding: 12px 0 0 0;
+	font-size: 14px;
+}
+
+/* Страница с полным циклом */
+
+div.complete_cycle {
+	display: block;
+	margin: 60px 20% 50px 20%;
+}
+
+div.complete_cycle_h1 {
+	font-family: Avenir_Next;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+div.transports {
+	display: block;
+	height: 670px;
+}
+
+div.transports_left {
+	display: block;
+	height: 290px;
+	width: 380px;
+}
+
+div.Motorcycle {
+	display: inline-flex;
+}
+
+div.Motorcycle-2 {
+	display: inline-flex;
+}
+
+div.transports_right {
+	display: block;
+	float: right;
+	height: 290px;
+	width: 380px;
+	margin-top: -90px;
+}
+
+div.Motorcycle-3 {
+	display: inline-flex;
+}
+
+/* Следующая маленькая линия со словами */
+
+h1.Handling {
+ font-size: 36px;
+}
+
+p.Handling {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+/* Гарантия */
+
+div.guarantee {
+	width: 1000px;
+	height: 340px;
+	display: inline-flex;
+	margin-left: 300px;
+	margin-top: 90px;
+}
+
+div.guarantee-block1 {
+	width: 185px;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+div.guarantee-block2 {
+	width: 200px;
+	height: 320px;
+	border-radius: 20px;
+}
+
+div.guarantee h3, h1 {
+	text-align: center;
+	line-height: 15px;
+}
+
+div.guarantee h3 {
+	margin-top: 40px;
+}
+
+div.guarantee-block2:hover {
+	transition: .5s;
+	width: 200px;
+	height: 320px;
+	background-color: #5CB30B;
+	color: white;
+	border-radius: 20px;
+}
+
+div.guarantee button {
+	width: 160px;
+	height: 50px;
+	border-radius: 30px;
+	border-style: none;
+	background-color: rgba(162, 212, 116, 10%);
+	color: #5CB30B;
+	margin-top: 100px;
+	margin-left: 10%;
+	font-weight: 600;
+}
+
+div.guarantee button:hover {
+	width: 160px;
+	height: 50px;
+	border-radius: 30px;
+	border-style: none;
+	background-color: white;
+	color: #5CB30B;
+	margin-top: 100px;
+	margin-left: 10%;
+	transition: .5s;
+	cursor: pointer;
+}
+
+div.guarantee-block3 {
+	width: 200px;
+	height: 320px;
+	border-radius: 20px;
+}
+
+div.guarantee-block3:hover {
+	transition: .5s;
+	width: 200px;
+	height: 320px;
+	background-color: #5CB30B;
+	color: white;
+	border-radius: 20px;
+}
+
+div.guarantee-block4 {
+	width: 200px;
+	height: 320px;
+	border-radius: 20px;
+}
+
+div.guarantee-block4:hover {
+	transition: .5s;
+	width: 200px;
+	height: 320px;
+	background-color: #5CB30B;
+	color: white;
+	border-radius: 20px;
+}
+
+div.gosubmit-weight {
+	margin-left: 350px;
+	line-height: 70px;
+	margin-bottom: 100px;
+}
+
+img.gosubmit-weight {
+	position: absolute;
+	margin-left: -30px;
+	width: 900px;
+}
+
+span.gosubmit-weight-left {
+	text-align: left;
+}
+
+span.gosubmit-weight-right {
+	text-align: right;
+	display: block;
+	float: right;
+	margin-top: -485px;
+	margin-right: 380px;
+}
+
+span.gosubmit-weight-right h1 {
+	margin-right: -20px;
+}
+
+h1.gosubmit-weight {
+	text-align: left;
+}
+
+/* Подвал */
+
+div.gosubmit {
+	background: url(img/Rectangle5.png) no-repeat;
+	background-position: center;
+	margin: 10px 7% -13px 6%;
+	color: white;
+	padding-left: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 36px;
+}
+
+div.gosubmit h1, p {
+	text-align: left;
+	font-weight: normal;
+}
+
+div.gosubmit-2 {
+	float: right;
+	margin: -75px 200px 40px 0px;
+}
+
+button.gosubmit-2 {
+	width: 120px;
+	height: 46px;
+	border-radius: 5px;
+	color: white;
+	background-color: #61C702;
+	border-style: none;
+	cursor: pointer;
+}
+
+button.gosubmit-2:hover {
+	background-color: #76de57;
+	transition: .3s;
+}
+
+button.gosubmit-2-2 {
+	width: 150px;
+	height: 46px;
+	border-radius: 5px;
+	color: #003156;
+	background-color: white;
+	border-style: none;
+	cursor: pointer;
+	margin-left: 35px;
+}
+
+button.gosubmit-2-2:hover {
+	background-color: #EEEEEE;
+	transition: .3s;
+}
+
+div.footer-span {
+	margin-top: 10px;
+	padding-top: 50px;
+	/*margin-top: -50px;*/
+	display: inline-flex;
+	margin-left: 6%;
+	margin-right: 6%;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+span.footer-1 {
+	margin-right: 290px;
+	font-weight: normal;
+}
+
+span.footer-2 {
+	margin-right: 290px;
+	font-weight: normal;
+}
+
+span.footer-3 {
+	margin-right: 285px;
+	font-weight: normal;
+}
+
+span.footer-4 {
+	margin-right: 320px;
+	font-weight: normal;
+}
+
+img.footer-5 {
+	margin-bottom: -7px;
+	margin-right: 10px;
+	font-weight: normal;
+}
+
+span.footer-5 a {
+	text-decoration: none;
+	color: black;
+	font-weight: normal;
+}
+
+img.mental-card {
+	margin-left: 85px;
+	margin-top: 50px;
+}

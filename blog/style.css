@@ -1,0 +1,70 @@
+/* Шрифты 
+
+font-family: 'Abel', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+body {
+	margin: 0;
+	font-family: 'Abel', sans-serif;
+}
+ 
+/* Фиксированное меню */
+
+nav.navbar {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	box-shadow: 0 1px 1px rgb(0 0 0 / 1%), 0 5px 13px rgb(0 0 0 / 8%);
+	top: 0px;
+}
+
+nav.navbar a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	float: right;
+	padding: 16px 16px;
+	margin-right: 90px;
+	margin-top: 12.5px;
+	color: black;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+nav.navbar a:hover {
+	color: #5CB30B;
+	font-weight: 1000;
+}
+
+img.navbar {
+	margin-left: 50px;
+	width: 95px;
+	margin-right: 200px;
+}
+
+button.navbar {
+	color: white;
+	background-color: #5CB30B;
+	width: 120px;
+	height: 40px;
+	border-radius: 8px;
+	border: none;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 13px;;
+}
+
+button.navbar:hover {
+	background: #76de57;
+	transition: .3s;
+}
+
+a.navbar {
+	padding-top: 5px !important;
+}
+
+
+
